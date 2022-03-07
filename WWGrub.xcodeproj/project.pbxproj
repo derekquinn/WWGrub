@@ -23,6 +23,7 @@
 		C45B2DD927D5BCBF00C589BF /* BrandedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DD827D5BCBF00C589BF /* BrandedButton.swift */; };
 		C45B2DDC27D5D54700C589BF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DDB27D5D54700C589BF /* Location.swift */; };
 		C45B2DDE27D5D7DD00C589BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DDD27D5D7DD00C589BF /* Constants.swift */; };
+		C45B2DE027D5D87C00C589BF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DDF27D5D87C00C589BF /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C45B2DD827D5BCBF00C589BF /* BrandedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandedButton.swift; sourceTree = "<group>"; };
 		C45B2DDB27D5D54700C589BF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		C45B2DDD27D5D7DD00C589BF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C45B2DDF27D5D87C00C589BF /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				C45B2DDB27D5D54700C589BF /* Location.swift */,
+				C45B2DDF27D5D87C00C589BF /* Profile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				C45B2DD927D5BCBF00C589BF /* BrandedButton.swift in Sources */,
 				C45B2DDC27D5D54700C589BF /* Location.swift in Sources */,
 				C45B2DC727D57C5900C589BF /* LocationListView.swift in Sources */,
+				C45B2DE027D5D87C00C589BF /* Profile.swift in Sources */,
 				C45B2DCA27D57C6D00C589BF /* ProfileView.swift in Sources */,
 				C45B2DD127D5991500C589BF /* LocationDetailView.swift in Sources */,
 				C45B2DC427D57C3C00C589BF /* LocationMapView.swift in Sources */,
