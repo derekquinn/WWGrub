@@ -12,10 +12,10 @@ struct Profile {
 
     init(record: CKRecord) {
         ckRecordID = record.recordID
-        firstName = record[Constant.kFirstName] as! String
-        lastName = record[Constant.kLastName] as! String
-        avatar = record[Constant.kAvatar]
-        companyName = record[Constant.kCompanyName] as! String
-        bio = record[Constant.kBio] as! String
+        firstName = record[Constant.kFirstName] as? String ?? ""
+        lastName = record[Constant.kLastName] as? String ?? ""
+        avatar = record[Constant.kAvatar] as? CKAsset
+        companyName = record[Constant.kCompanyName] as? String ?? ""
+        bio = record[Constant.kBio]  as? String ?? ""
     }
 }
