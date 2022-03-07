@@ -27,6 +27,7 @@
 		C45B2DE227D5DA2400C589BF /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DE127D5DA2400C589BF /* MockData.swift */; };
 		C45B2DE427D6BEFB00C589BF /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DE327D6BEFB00C589BF /* CloudKitManager.swift */; };
 		C45B2DE627D6CA7000C589BF /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DE527D6CA7000C589BF /* AlertItem.swift */; };
+		C45B2DE827D6CFCF00C589BF /* LocationMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DE727D6CFCF00C589BF /* LocationMapViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		C45B2DE127D5DA2400C589BF /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		C45B2DE327D6BEFB00C589BF /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
 		C45B2DE527D6CA7000C589BF /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		C45B2DE727D6CFCF00C589BF /* LocationMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				C45B2DE327D6BEFB00C589BF /* CloudKitManager.swift */,
 				C45B2DDD27D5D7DD00C589BF /* Constants.swift */,
+				C45B2DE527D6CA7000C589BF /* AlertItem.swift */,
 				C45B2DDA27D5D53800C589BF /* Models */,
 				C45B2DBC27D5780000C589BF /* WWGrub (iOS).entitlements */,
 				C45B2D8027D5779800C589BF /* WWGrubApp.swift */,
@@ -107,6 +110,7 @@
 			children = (
 				C45B2DCD27D57DB400C589BF /* AppTabView.swift */,
 				C45B2DC327D57C3C00C589BF /* LocationMapView.swift */,
+				C45B2DE727D6CFCF00C589BF /* LocationMapViewModel.swift */,
 				C45B2DC627D57C5900C589BF /* LocationListView.swift */,
 				C45B2DC927D57C6D00C589BF /* ProfileView.swift */,
 				C45B2DD827D5BCBF00C589BF /* BrandedButton.swift */,
@@ -158,7 +162,6 @@
 				C45B2DDB27D5D54700C589BF /* Location.swift */,
 				C45B2DDF27D5D87C00C589BF /* Profile.swift */,
 				C45B2DE127D5DA2400C589BF /* MockData.swift */,
-				C45B2DE527D6CA7000C589BF /* AlertItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				C45B2DA827D5779900C589BF /* WWGrubApp.swift in Sources */,
 				C45B2DCE27D57DB400C589BF /* AppTabView.swift in Sources */,
 				C45B2DDE27D5D7DD00C589BF /* Constants.swift in Sources */,
+				C45B2DE827D6CFCF00C589BF /* LocationMapViewModel.swift in Sources */,
 				C45B2DE427D6BEFB00C589BF /* CloudKitManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
