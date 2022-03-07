@@ -31,22 +31,18 @@ struct LocationDetailView: View {
                     .foregroundColor(Color(.secondarySystemBackground))
                 HStack(spacing: 20) {
                     Button {
-                        
                     } label: {
                         LocationActionButton(color: Color("brandPrimary"), imageName: "location.fill")
                     }
                     Button {
-                        
                     } label: {
                         LocationActionButton(color: Color("brandPrimary"), imageName: "network")
                     }
                     Button {
-                        
                     } label: {
                         LocationActionButton(color: Color("brandPrimary"), imageName: "phone.fill")
                     }
                     Button {
-                        
                     } label: {
                         LocationActionButton(color: Color("brandPrimary"), imageName: "person.fill.checkmark")
                     }
