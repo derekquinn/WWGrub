@@ -1,10 +1,3 @@
-//
-//  LocationListView.swift
-//  WWGrub
-//
-//  Created by dereq on 3/6/22.
-//
-
 import SwiftUI
 
 struct LocationListView: View {
