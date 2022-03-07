@@ -1,8 +1,8 @@
 import SwiftUI
 
 struct LocationDetailView: View {
+    var location: Location
     var body: some View {
-        
         let columns = [GridItem(.flexible()),
                        GridItem(.flexible()),
                        GridItem(.flexible())
@@ -11,10 +11,10 @@ struct LocationDetailView: View {
         VStack(spacing: 16) {
             BannerImageView(imageName: "default-banner-asset")
             HStack {
-                AddresssView(address: "123 Fruit Pie St.")
+                AddresssView(address: location.address)
                 Spacer()
             }.padding(.horizontal)
-            DescriptionView(description: "This is a test description.This is a test description.This is a test description.This is a test description.This is a test description.")
+            DescriptionView(description: location.description)
             ZStack {
                 Capsule()
                     .frame(height: 80)
@@ -24,8 +24,7 @@ struct LocationDetailView: View {
                     } label: {
                         LocationActionButton(color: Color("brandPrimary"), imageName: "location.fill")
                     }
-                    Button {
-                    } label: {
+                    Link(destination: URL(string: location.websiteURL)!) {
                         LocationActionButton(color: Color("brandPrimary"), imageName: "network")
                     }
                     Button {
@@ -59,14 +58,14 @@ struct LocationDetailView: View {
             }
             Spacer()
         }
-        .navigationTitle("Location Name")
+        .navigationTitle(location.name)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct LocationDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        LocationDetailView()
+        LocationDetailView(location: Location(record: MockData.location))
     }
 }
 
