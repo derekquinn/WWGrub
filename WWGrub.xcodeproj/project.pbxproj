@@ -16,6 +16,7 @@
 		C45B2DC727D57C5900C589BF /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DC627D57C5900C589BF /* LocationListView.swift */; };
 		C45B2DCA27D57C6D00C589BF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DC927D57C6D00C589BF /* ProfileView.swift */; };
 		C45B2DCE27D57DB400C589BF /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DCD27D57DB400C589BF /* AppTabView.swift */; };
+		C45B2DD127D5991500C589BF /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DD027D5991500C589BF /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		C45B2DC627D57C5900C589BF /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		C45B2DC927D57C6D00C589BF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C45B2DCD27D57DB400C589BF /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		C45B2DD027D5991500C589BF /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				C45B2DC627D57C5900C589BF /* LocationListView.swift */,
 				C45B2DC927D57C6D00C589BF /* ProfileView.swift */,
 				C45B2DCD27D57DB400C589BF /* AppTabView.swift */,
+				C45B2DD027D5991500C589BF /* LocationDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			files = (
 				C45B2DC727D57C5900C589BF /* LocationListView.swift in Sources */,
 				C45B2DCA27D57C6D00C589BF /* ProfileView.swift in Sources */,
+				C45B2DD127D5991500C589BF /* LocationDetailView.swift in Sources */,
 				C45B2DC427D57C3C00C589BF /* LocationMapView.swift in Sources */,
 				C45B2DA827D5779900C589BF /* WWGrubApp.swift in Sources */,
 				C45B2DCE27D57DB400C589BF /* AppTabView.swift in Sources */,
