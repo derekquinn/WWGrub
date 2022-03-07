@@ -21,6 +21,8 @@
 		C45B2DD527D5B7F700C589BF /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DD427D5B7F700C589BF /* AvatarView.swift */; };
 		C45B2DD727D5BB8D00C589BF /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DD627D5BB8D00C589BF /* View+Ext.swift */; };
 		C45B2DD927D5BCBF00C589BF /* BrandedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DD827D5BCBF00C589BF /* BrandedButton.swift */; };
+		C45B2DDC27D5D54700C589BF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DDB27D5D54700C589BF /* Location.swift */; };
+		C45B2DDE27D5D7DD00C589BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DDD27D5D7DD00C589BF /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		C45B2DD427D5B7F700C589BF /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		C45B2DD627D5BB8D00C589BF /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		C45B2DD827D5BCBF00C589BF /* BrandedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandedButton.swift; sourceTree = "<group>"; };
+		C45B2DDB27D5D54700C589BF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C45B2DDD27D5D7DD00C589BF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 		C45B2D7A27D5779800C589BF = {
 			isa = PBXGroup;
 			children = (
+				C45B2DDD27D5D7DD00C589BF /* Constants.swift */,
+				C45B2DDA27D5D53800C589BF /* Models */,
 				C45B2DBC27D5780000C589BF /* WWGrub (iOS).entitlements */,
 				C45B2D8027D5779800C589BF /* WWGrubApp.swift */,
 				C45B2D8227D5779900C589BF /* Assets.xcassets */,
@@ -135,6 +141,14 @@
 				C45B2DD627D5BB8D00C589BF /* View+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C45B2DDA27D5D53800C589BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C45B2DDB27D5D54700C589BF /* Location.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C45B2DD927D5BCBF00C589BF /* BrandedButton.swift in Sources */,
+				C45B2DDC27D5D54700C589BF /* Location.swift in Sources */,
 				C45B2DC727D57C5900C589BF /* LocationListView.swift in Sources */,
 				C45B2DCA27D57C6D00C589BF /* ProfileView.swift in Sources */,
 				C45B2DD127D5991500C589BF /* LocationDetailView.swift in Sources */,
@@ -246,6 +261,7 @@
 				C45B2DD727D5BB8D00C589BF /* View+Ext.swift in Sources */,
 				C45B2DA827D5779900C589BF /* WWGrubApp.swift in Sources */,
 				C45B2DCE27D57DB400C589BF /* AppTabView.swift in Sources */,
+				C45B2DDE27D5D7DD00C589BF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
