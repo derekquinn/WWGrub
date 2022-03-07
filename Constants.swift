@@ -2,6 +2,9 @@ import CoreLocation
 
 enum Constant {
     static let kDefaultLocation = CLLocation(latitude: 42.33542, longitude: -83.04916)
+    static let kLocationRecord = "WWGLocation"
+    static let kProfileRecord = "WWGProfile"
+
     static let kName = "name"
     static let kDescription = "description"
     static let kSquareAsset = "squareAsset"

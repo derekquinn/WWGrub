@@ -15,6 +15,15 @@ struct LocationMapView: View {
                     .shadow(radius: 10)
                 Spacer()
             }
+        }.onAppear {
+            CloudKitManager.getLocations { result in
+                switch result {
+                case .success(let locations):
+                    print("[INFO] \(locations)")
+                case .failure(let error):
+                    print("[INFO] \(error)")
+                }
+            }
         }
     }
 }
