@@ -17,6 +17,10 @@
 		C45B2DCA27D57C6D00C589BF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DC927D57C6D00C589BF /* ProfileView.swift */; };
 		C45B2DCE27D57DB400C589BF /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DCD27D57DB400C589BF /* AppTabView.swift */; };
 		C45B2DD127D5991500C589BF /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DD027D5991500C589BF /* LocationDetailView.swift */; };
+		C45B2DD327D5B7D300C589BF /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DD227D5B7D300C589BF /* LocationCell.swift */; };
+		C45B2DD527D5B7F700C589BF /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DD427D5B7F700C589BF /* AvatarView.swift */; };
+		C45B2DD727D5BB8D00C589BF /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DD627D5BB8D00C589BF /* View+Ext.swift */; };
+		C45B2DD927D5BCBF00C589BF /* BrandedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DD827D5BCBF00C589BF /* BrandedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		C45B2DC927D57C6D00C589BF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C45B2DCD27D57DB400C589BF /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
 		C45B2DD027D5991500C589BF /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		C45B2DD227D5B7D300C589BF /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		C45B2DD427D5B7F700C589BF /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		C45B2DD627D5BB8D00C589BF /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		C45B2DD827D5BCBF00C589BF /* BrandedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +76,10 @@
 		C45B2D7A27D5779800C589BF = {
 			isa = PBXGroup;
 			children = (
-				C45B2D8027D5779800C589BF /* WWGrubApp.swift */,
-				C45B2DC127D57BBA00C589BF /* Extensions */,
 				C45B2DBC27D5780000C589BF /* WWGrub (iOS).entitlements */,
+				C45B2D8027D5779800C589BF /* WWGrubApp.swift */,
+				C45B2D8227D5779900C589BF /* Assets.xcassets */,
+				C45B2DC127D57BBA00C589BF /* Extensions */,
 				C45B2D7F27D5779800C589BF /* Views */,
 				C45B2D9727D5779900C589BF /* Tests iOS */,
 				C45B2D8827D5779900C589BF /* Products */,
@@ -81,12 +90,14 @@
 		C45B2D7F27D5779800C589BF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C45B2D8227D5779900C589BF /* Assets.xcassets */,
+				C45B2DCD27D57DB400C589BF /* AppTabView.swift */,
 				C45B2DC327D57C3C00C589BF /* LocationMapView.swift */,
 				C45B2DC627D57C5900C589BF /* LocationListView.swift */,
 				C45B2DC927D57C6D00C589BF /* ProfileView.swift */,
-				C45B2DCD27D57DB400C589BF /* AppTabView.swift */,
+				C45B2DD827D5BCBF00C589BF /* BrandedButton.swift */,
 				C45B2DD027D5991500C589BF /* LocationDetailView.swift */,
+				C45B2DD227D5B7D300C589BF /* LocationCell.swift */,
+				C45B2DD427D5B7F700C589BF /* AvatarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -121,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				C45B2DC027D57BB600C589BF /* Color+Ext.swift */,
+				C45B2DD627D5BB8D00C589BF /* View+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -224,10 +236,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45B2DD927D5BCBF00C589BF /* BrandedButton.swift in Sources */,
 				C45B2DC727D57C5900C589BF /* LocationListView.swift in Sources */,
 				C45B2DCA27D57C6D00C589BF /* ProfileView.swift in Sources */,
 				C45B2DD127D5991500C589BF /* LocationDetailView.swift in Sources */,
 				C45B2DC427D57C3C00C589BF /* LocationMapView.swift in Sources */,
+				C45B2DD327D5B7D300C589BF /* LocationCell.swift in Sources */,
+				C45B2DD527D5B7F700C589BF /* AvatarView.swift in Sources */,
+				C45B2DD727D5BB8D00C589BF /* View+Ext.swift in Sources */,
 				C45B2DA827D5779900C589BF /* WWGrubApp.swift in Sources */,
 				C45B2DCE27D57DB400C589BF /* AppTabView.swift in Sources */,
 			);
