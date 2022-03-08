@@ -22,6 +22,7 @@ struct LocationMapView: View {
                   dismissButton: alertItem.dismissButton)
         })
         .onAppear {
+            viewModel.checkIfLocationServicesIsEnabled()
             if locationManager.locations.isEmpty {
                 viewModel.getLocations(with: locationManager)
             }
