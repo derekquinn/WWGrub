@@ -16,7 +16,11 @@ struct LocationMapView: View {
                     .shadow(radius: 10)
                 Spacer()
             }
-        }.alert(item: $viewModel.alertItem, content: { alertItem in
+        }
+        .sheet(isPresented: $viewModel.isShowingOnboardView) {
+            OnboardView(isShowingOnboardView: $viewModel.isShowingOnboardView)
+        }
+        .alert(item: $viewModel.alertItem, content: { alertItem in
             Alert(title: alertItem.title,
                   message: alertItem.message,
                   dismissButton: alertItem.dismissButton)
