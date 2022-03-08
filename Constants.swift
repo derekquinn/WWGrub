@@ -21,6 +21,8 @@ enum Constant {
     static let kBio = "bio"
     static let kCompanyName = "companyName"
     static let kIsCheckedIn = "isCheckedIn"
+
+    static let kHasSeenOnboardView = "hasSeenOnboardView"
 }
 
 enum PlaceholderImage {

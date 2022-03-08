@@ -2,11 +2,23 @@ import MapKit
 
 final class LocationMapViewModel: NSObject, ObservableObject {
 
-    @Published var isShowingOnboardView = true
+    @Published var isShowingOnboardView = false
     @Published var alertItem: AlertItem?
     @Published var detroit = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 42.33542, longitude: -83.04916),
                                                    span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
     var deviceLocationManager: CLLocationManager?
+    var hasSeenOnboardView: Bool {
+        return UserDefaults.standard.bool(forKey: Constant.kHasSeenOnboardView)
+    }
+
+    func runStartupChecks() {
+        if !hasSeenOnboardView {
+            isShowingOnboardView = true
+            UserDefaults.standard.set(true, forKey: Constant.kHasSeenOnboardView)
+        } else {
+            checkIfLocationServicesIsEnabled()
+        }
+    }
 
     func checkIfLocationServicesIsEnabled() {
         if CLLocationManager.locationServicesEnabled() {
