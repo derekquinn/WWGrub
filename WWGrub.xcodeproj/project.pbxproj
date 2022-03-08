@@ -33,6 +33,7 @@
 		C45B2DEE27D71A5800C589BF /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DED27D71A5800C589BF /* OnboardView.swift */; };
 		C45B2DF027D71A9800C589BF /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DEF27D71A9800C589BF /* LogoView.swift */; };
 		C45B2DF227D71DDB00C589BF /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DF127D71DDB00C589BF /* Buttons.swift */; };
+		C45B2DF427D72B7B00C589BF /* PotatoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DF327D72B7B00C589BF /* PotatoPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		C45B2DED27D71A5800C589BF /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
 		C45B2DEF27D71A9800C589BF /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		C45B2DF127D71DDB00C589BF /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		C45B2DF327D72B7B00C589BF /* PotatoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,14 +102,15 @@
 		C45B2D7A27D5779800C589BF = {
 			isa = PBXGroup;
 			children = (
+				C45B2DF327D72B7B00C589BF /* PotatoPicker.swift */,
 				C45B2DE927D6F83A00C589BF /* LocationManager.swift */,
 				C45B2DE327D6BEFB00C589BF /* CloudKitManager.swift */,
 				C45B2DDD27D5D7DD00C589BF /* Constants.swift */,
 				C45B2DE527D6CA7000C589BF /* AlertItem.swift */,
-				C45B2DDA27D5D53800C589BF /* Models */,
 				C45B2DBC27D5780000C589BF /* WWGrub (iOS).entitlements */,
 				C45B2D8027D5779800C589BF /* WWGrubApp.swift */,
 				C45B2D8227D5779900C589BF /* Assets.xcassets */,
+				C45B2DDA27D5D53800C589BF /* Models */,
 				C45B2DC127D57BBA00C589BF /* Extensions */,
 				C45B2D7F27D5779800C589BF /* Views */,
 				C45B2D9727D5779900C589BF /* Tests iOS */,
@@ -297,6 +300,7 @@
 				C45B2DEC27D6FF5000C589BF /* CKAsset+Ext.swift in Sources */,
 				C45B2DD727D5BB8D00C589BF /* View+Ext.swift in Sources */,
 				C45B2DA827D5779900C589BF /* WWGrubApp.swift in Sources */,
+				C45B2DF427D72B7B00C589BF /* PotatoPicker.swift in Sources */,
 				C45B2DCE27D57DB400C589BF /* AppTabView.swift in Sources */,
 				C45B2DEE27D71A5800C589BF /* OnboardView.swift in Sources */,
 				C45B2DDE27D5D7DD00C589BF /* Constants.swift in Sources */,
