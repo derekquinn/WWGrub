@@ -1,4 +1,5 @@
 import CoreLocation
+import UIKit
 
 enum Constant {
     static let kDefaultLocation = CLLocation(latitude: 42.33542, longitude: -83.04916)
@@ -20,4 +21,23 @@ enum Constant {
     static let kBio = "bio"
     static let kCompanyName = "companyName"
     static let kIsCheckedIn = "isCheckedIn"
+}
+
+enum PlaceholderImage {
+    static let avatar = UIImage(named: "default-avatar")!
+    static let square = UIImage(named: "default-square-asset")!
+    static let banner = UIImage(named: "default-banner-asset")!
+
+    static func getPlaceHolder(for dimension: ImageDimension) -> UIImage {
+        switch dimension {
+        case .square:
+            return PlaceholderImage.square
+        case .banner:
+            return PlaceholderImage.banner
+        }
+    }
+}
+
+enum ImageDimension {
+    case square, banner
 }

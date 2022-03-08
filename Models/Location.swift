@@ -1,4 +1,5 @@
 import CloudKit
+import UIKit
 
 struct Location: Identifiable {
 
@@ -22,5 +23,15 @@ struct Location: Identifiable {
         location = record[Constant.kLocation] as? CLLocation ?? Constant.kDefaultLocation
         websiteURL = record[Constant.kWebsiteURL] as? String ?? ""
         phoneNumber = record[Constant.kPhoneNumber] as? String ?? ""
+    }
+
+    func createSquareImage() -> UIImage {
+        guard let asset = squareAsset else { return PlaceholderImage.square }
+        return asset.convertToUIImage(in: .square)
+    }
+
+    func createBannerImage() -> UIImage {
+        guard let asset = bannerAsset else { return PlaceholderImage.banner }
+        return asset.convertToUIImage(in: .banner)
     }
 }

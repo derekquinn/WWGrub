@@ -29,6 +29,7 @@
 		C45B2DE627D6CA7000C589BF /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DE527D6CA7000C589BF /* AlertItem.swift */; };
 		C45B2DE827D6CFCF00C589BF /* LocationMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DE727D6CFCF00C589BF /* LocationMapViewModel.swift */; };
 		C45B2DEA27D6F83B00C589BF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DE927D6F83A00C589BF /* LocationManager.swift */; };
+		C45B2DEC27D6FF5000C589BF /* CKAsset+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DEB27D6FF5000C589BF /* CKAsset+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		C45B2DE527D6CA7000C589BF /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
 		C45B2DE727D6CFCF00C589BF /* LocationMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewModel.swift; sourceTree = "<group>"; };
 		C45B2DE927D6F83A00C589BF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C45B2DEB27D6FF5000C589BF /* CKAsset+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKAsset+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			children = (
 				C45B2DC027D57BB600C589BF /* Color+Ext.swift */,
 				C45B2DD627D5BB8D00C589BF /* View+Ext.swift */,
+				C45B2DEB27D6FF5000C589BF /* CKAsset+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				C45B2DC427D57C3C00C589BF /* LocationMapView.swift in Sources */,
 				C45B2DD327D5B7D300C589BF /* LocationCell.swift in Sources */,
 				C45B2DD527D5B7F700C589BF /* AvatarView.swift in Sources */,
+				C45B2DEC27D6FF5000C589BF /* CKAsset+Ext.swift in Sources */,
 				C45B2DD727D5BB8D00C589BF /* View+Ext.swift in Sources */,
 				C45B2DA827D5779900C589BF /* WWGrubApp.swift in Sources */,
 				C45B2DCE27D57DB400C589BF /* AppTabView.swift in Sources */,
