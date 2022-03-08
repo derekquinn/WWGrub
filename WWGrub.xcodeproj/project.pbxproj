@@ -28,6 +28,7 @@
 		C45B2DE427D6BEFB00C589BF /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DE327D6BEFB00C589BF /* CloudKitManager.swift */; };
 		C45B2DE627D6CA7000C589BF /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DE527D6CA7000C589BF /* AlertItem.swift */; };
 		C45B2DE827D6CFCF00C589BF /* LocationMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DE727D6CFCF00C589BF /* LocationMapViewModel.swift */; };
+		C45B2DEA27D6F83B00C589BF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B2DE927D6F83A00C589BF /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		C45B2DE327D6BEFB00C589BF /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
 		C45B2DE527D6CA7000C589BF /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
 		C45B2DE727D6CFCF00C589BF /* LocationMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewModel.swift; sourceTree = "<group>"; };
+		C45B2DE927D6F83A00C589BF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		C45B2D7A27D5779800C589BF = {
 			isa = PBXGroup;
 			children = (
+				C45B2DE927D6F83A00C589BF /* LocationManager.swift */,
 				C45B2DE327D6BEFB00C589BF /* CloudKitManager.swift */,
 				C45B2DDD27D5D7DD00C589BF /* Constants.swift */,
 				C45B2DE527D6CA7000C589BF /* AlertItem.swift */,
@@ -273,6 +276,7 @@
 				C45B2DCA27D57C6D00C589BF /* ProfileView.swift in Sources */,
 				C45B2DE227D5DA2400C589BF /* MockData.swift in Sources */,
 				C45B2DD127D5991500C589BF /* LocationDetailView.swift in Sources */,
+				C45B2DEA27D6F83B00C589BF /* LocationManager.swift in Sources */,
 				C45B2DC427D57C3C00C589BF /* LocationMapView.swift in Sources */,
 				C45B2DD327D5B7D300C589BF /* LocationCell.swift in Sources */,
 				C45B2DD527D5B7F700C589BF /* AvatarView.swift in Sources */,

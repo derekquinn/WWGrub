@@ -1,8 +1,8 @@
 import CloudKit
 
-struct Location {
+struct Location: Identifiable {
 
-    let ckRecordID: CKRecord.ID
+    let id: CKRecord.ID
     let name: String
     let description: String
     let squareAsset: CKAsset?
@@ -13,7 +13,7 @@ struct Location {
     let phoneNumber: String
 
     init(record: CKRecord) {
-        ckRecordID = record.recordID
+        id = record.recordID
         name = record[Constant.kName] as? String ?? ""
         description = record[Constant.kDescription] as? String ?? ""
         squareAsset = record[Constant.kSquareAsset] as? CKAsset
