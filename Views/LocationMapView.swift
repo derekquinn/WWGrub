@@ -8,12 +8,9 @@ struct LocationMapView: View {
 
     var body: some View {
         ZStack {
-            Map(coordinateRegion: $viewModel.detroit,
-                annotationItems: locationManager.locations,
-                annotationContent: { location in
+            Map(coordinateRegion: $viewModel.detroit, showsUserLocation: true, annotationItems: locationManager.locations) { location in
                 MapMarker(coordinate: location.location.coordinate, tint: .green)
-            }).ignoresSafeArea()
-            
+            }.ignoresSafeArea()
             VStack {
                 LogoView()
                     .shadow(radius: 10)
